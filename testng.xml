@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.api.restassured.TC004_GET_JsonValidate"/>
+      <class name="com.api.restassured.TC005_GET_Json_Validate1"/>
+      <class name="com.api.restassured.TC002_POST_Request"/>
+      <class name="com.api.restassured.TC001_GET_Request"/>
+      <class name="com.api.restassured.TC006_GET_Authentication"/>
+      <class name="com.api.restassured.TC003_GET_Request"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
